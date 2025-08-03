@@ -1,0 +1,70 @@
+header {
+  background-color: rgb(10, 164, 164);
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 25px;
+  border: 4px solid white;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  text-align: center;
+  background-image: url("images/pixel-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.mainPageButtons {
+  background-color: rgb(10, 164, 164);
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 25px;
+  border: 4px solid white;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.mainPageButtons:hover {
+  background-color: rgb(117, 205, 205);
+}
+
+.mainPageButtons:active {
+  background-color: teal;
+}
+
+.about-me {
+  background-color: rgb(124, 81, 1);
+  border: 4px solid white;
+  border-radius: 16px;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8px;
+  width: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.pixelGuy {
+  margin-left: 0px;
+  margin-right: 0px;
+  display: inline-block;
+}
